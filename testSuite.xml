@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests">
+    <!-- FIREFOX TEST  -->
+    <!-- <test name="FirefoxTest">
+     <parameter name="browser" value="firefox" />
+     <classes>
+     <class name="TestCases.loginTestCases">
+ <methods>
+    <include name="blankPwd" />
+     <include name="blankUser"/>
+     <include name="blankUserPwd"/>
+     <include name="login"/>
+ </methods>
+     </class>
+     </classes>
+     </test>-->
+    <!-- CHROME TEST  -->
+    <test name="ChromeTest">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="testcases.singleProductNonConfig" >
+                <methods>
+                   <!-- <include name = "singleProdCod"></include>-->
+                   <!-- <include name="singleProdCoddiscount"></include>-->
+                   <!-- <include name="singleHazirProduct"></include>-->
+                  <!--  <include name="singleHazirProductDiscount"></include>-->
+                  <include name = "creditCard"></include>
+                   <!-- <include name = "creditCardBINCode"></include>-->
+                    <!--<include name = "easyPayMobileAccount"></include>-->
+                   <!-- <include name = "easyPayVoucher"></include>-->
+                  <!--  <include name = "jazzCashVoucher"></include>-->
+                    <!--<include name = "jazzCashMobileAccount"></include>-->
+                    <!--<include name = "creditCardDiscountCode"></include>-->
+                   <!-- <include name = "creditCardBINDiscountCode"></include>-->
+                   <!-- <include name = "easyPayMobileAccountDiscountCode"></include>-->
+                   <!-- <include name="easyPayVoucherDiscountCode"></include>-->
+                    <!--<include name="JaazCashMobileAccountDiscountCode"></include>-->
+                   <!-- <include name ="JaazCashVoucherDiscountCode"></include>-->
+                    <!--<include name="creditCardHazir"></include>-->
+                   <!-- <include name="creditCardBINCodeHazir"></include>-->
+                   <!-- <include name="easyPayMobileAccountHazir"></include>-->
+                   <!-- <include name="easyPayVoucherHazir"></include>-->
+                    <!--<include name="jazzCashVoucherHazir"></include>-->
+                    <!--<include name="jazzCashMobileAccountHazir"></include>-->
+                   <!-- <include name="creditCardDiscountCodeHazir"></include>-->
+                   <!-- <include name="creditCardBINDiscountCodeHazir"></include>-->
+                   <!-- <include name="easyPayMobileAccountDiscountCodeHazir"></include>-->
+                   <!-- <include name="easyPayVoucherDiscountCodeHazir"></include>-->
+                   <!-- <include name="JaazCashMobileAccountDiscountCodeHazir"></include>-->
+                    <!--<include name="JaazCashVoucherDiscountCodeHazir"></include>-->
+                </methods>
+            </class>
+           <!-- <class name="testcases.loginSingleProductNonConfig">
+                <methods>
+                    <include name ="singleProdCodLogin"></include>
+                    <include name ="singleProdCoddiscountLogin"></include>
+                    <include name ="singleHazirProductLogin"></include>
+                    <include name ="singleHazirProductDiscountLogin"></include>
+                    <include name="creditCardLogin"></include>
+                    <include name="creditCardBINCodeLogin"></include>
+                    <include name ="easyPayMobileAccountLogin"></include>
+                    <include name ="easyPayVoucherLogin"></include>
+                    <include name ="jazzCashMobileAccountLogin"></include>
+                    <include name="jazzCashVoucherLogin"></include>
+                    <include name="creditCardDiscountCodeLogin"></include>
+                    <include name="creditCardBINDiscountCodeLogin"></include>
+                    <include name="easyPayMobileAccountDiscountCodeLogin"></include>
+                    <include name="easyPayVoucherDiscountCodeLogin"></include>
+                    <include name="JaazCashMobileAccountDiscountCodeLogin"></include>
+                    <include name="jazzCashVoucherDiscountCodeLogin"></include>
+                    <include name ="singleProdCodInternalCreditLogin"></include>
+                    <include name="singleProdCoddiscountInternalCreditLogin"></include>
+                    <include name="singleHazirProductInternalCreditLogin"></include>
+                    <include name="singleHazirProductInternalCreditDiscountLogin"></include>
+                    <include name="creditCardLoginHazir"></include>
+                    <include name="creditCardBINCodeLoginHazir"></include>
+                    <include name="easyPayMobileAccountLoginHazir"></include>
+                    <include name="easyPayVoucherLoginHazir"></include>
+                    <include name="jazzCashMobileAccountLoginHazir"></include>
+                    <include name="jazzCashVoucherLoginHazir"></include>
+                    <include name="creditCardDiscountCodeLoginHazir"></include>
+                    <include name="creditCardBINDiscountCodeLoginHazir"></include>
+                    <include name="easyPayMobileAccountDiscountCodeLoginHazir"></include>
+                    <include name="easyPayVoucherDiscountCodeLoginHazir"></include>
+                    <include name="JaazCashMobileAccountDiscountCodeLoginHazir"></include>
+                    <include name="jazzCashVoucherDiscountCodeLoginHazir"></include>
+                    <include name="singleProdCodInternalCreditLoginHazir"></include>
+                    <include name="singleProdCoddiscountInternalCreditLoginHazir"></include>
+
+                </methods>
+            </class>-->
+
+
+           <!-- <class name="testcases.multipleProductsNonConfigGuest">
+                <methods>
+                    <include name="multipleProdCod"></include>
+                    <include name="multipleProdCoddiscount"></include>
+                    <include name="multipleHazirProduct"></include>
+                    <include name="multipleHazirProductDiscount"></include>
+                    <include name="multipleProductCreditCard"></include>
+                    <include name="multipleProductsCreditCardBINCode"></include>
+                    <include name="multipleProductsEasyPayMobileAccount"></include>
+                    <include name="MultipleProductsEasyPayVoucher"></include>
+                    <include name="MultipleProductsJazzCashVoucher"></include>
+                    <include name="multipleProductsJazzCashMobileAccount"></include>
+                    <include name="multipleProductsCreditCardDiscountCode"></include>
+                    <include name="multipleProductsCreditCardBINDiscountCode"></include>
+                    <include name="multipleProductsEasyPayMobileAccountDiscountCode"></include>
+                    <include name="multipleProductsEasyPayVoucherDiscountCode"></include>
+                    <include name="multipleProductsJaazCashMobileAccountDiscountCode"></include>
+                    <include name="multipleProductsJaazCashVoucherDiscountCode"></include>
+
+                </methods>
+
+
+            </class>-->
+           <!-- <class name="testcases.multipleProductsNonConfigLogin">
+                <methods>
+                    <include name="multipleProductsCodLogin"></include>
+                    <include name="multipleProductsCoddiscountLogin"></include>
+                    <include name="multipleHazirProductsLogin"></include>
+                    <include name="multipleHazirProductsDiscountLogin"></include>
+                    <include name="multipleProductsCreditCardLogin"></include>
+                    <include name="multipleProductsCreditCardBINCodeLogin"></include>
+                    <include name="multipleProductsEasyPayMobileAccountLogin"></include>
+                    <include name="multipleProductsEasyPayVoucherLogin"></include>
+                    <include name="multipleProdcutsJazzCashMobileAccountLogin"></include>
+                    <include name="multipleProductsJazzCashVoucherLogin"></include>
+                    <include name="multipleProductsCreditCardDiscountCodeLogin"></include>
+                    <include name="multipleProductsCreditCardBINDiscountCodeLogin"></include>
+                    <include name="multipleProductsEasyPayMobileAccountDiscountCodeLogin"></include>
+                    <include name="multipleProductsEasyPayVoucherDiscountCodeLogin"></include>
+                    <include name="multipleProductsJaazCashMobileAccountDiscountCodeLogin"></include>
+                    <include name="multipleProductsJazzCashVoucherDiscountCodeLogin"></include>
+                    <include name="multipleProductsCodInternalCreditLogin"></include>
+                    <include name="multipleProductsCoddiscountInternalCreditLogin"></include>
+                    <include name="multipleProductsHazirProductInternalCreditLogin"></include>
+                    <include name="multipleProductsHazirProductInternalCreditDiscountLogin"></include>
+                </methods>
+            </class>-->
+            <!--<class name="testcases.singleProductConfig">
+                <methods>
+                    <include name="singleProdCodConfig"></include>
+                    <include name="singleProdCoddiscountConfig"></include>
+                    <include name="singleHazirProductConfig"></include>
+                    <include name="singleHazirProductDiscountConfig"></include>
+                    <include name="creditCardConfig"></include>
+                    <include name="creditCardBINCodeConfig"></include>
+                    <include name="easyPayMobileAccountConfig"></include>
+                    <include name="easyPayVoucherConfig"></include>
+                    <include name="jazzCashVoucherConfig"></include>
+                    <include name="jazzCashMobileAccountConfig"></include>
+                    <include name="creditCardDiscountCodeConfig"></include>
+                    <include name="creditCardBINDiscountCodeConfig"></include>
+                    <include name="easyPayMobileAccountDiscountCodeConfig"></include>
+                    <include name="easyPayVoucherDiscountCodeConfig"></include>
+                    <include name="JaazCashMobileAccountDiscountCodeConfig"></include>
+                    <include name="JaazCashVoucherDiscountCodeConfig"></include>
+                    <include name="creditCardConfigHazir"></include>
+                    <include name="creditCardBINCodeConfigHazir"></include>
+                    <include name="easyPayMobileAccountConfigHazir"></include>
+                    <include name="easyPayVoucherConfigHazir"></include>
+                    <include name="jazzCashVoucherConfigHazir"></include>
+                    <include name="jazzCashMobileAccountConfigHazir"></include>
+                    <include name="creditCardDiscountCodeConfigHazir"></include>
+                    <include name="creditCardBINDiscountCodeConfigHazir></include>
+                    <include name="easyPayMobileAccountDiscountCodeConfigHazir></include>
+                    <include name="easyPayVoucherDiscountCodeConfigHazir"></include>
+                    <include name="JaazCashMobileAccountDiscountCodeConfigHazir"></include>
+                    <include name="JaazCashVoucherDiscountCodeConfigHazir"></include>
+                </methods>
+            </class>-->
+           <!-- <class name="testcases.loginSingleProductConfig">
+                <methods>
+                    <include name="singleProdCodLoginConfig"></include>
+                    <include name="singleProdCoddiscountLoginConfig"></include>
+                    <include name="singleHazirProductLoginConfig"></include>
+                    <include name="singleHazirProductDiscountLoginConfig"></include>
+                    <include name="creditCardLoginConfig"></include>
+                    <include name="creditCardBINCodeLoginConfig"></include>
+                    <include name="easyPayMobileAccountLoginConfig"></include>
+                    <include name="easyPayVoucherLoginConfig"></include>
+                    <include name="jazzCashMobileAccountLoginConfig"></include>
+                    <include name="jazzCashVoucherLoginConfig"></include>
+                    <include name="creditCardDiscountCodeLoginConfig"></include>
+                    <include name="creditCardBINDiscountCodeLoginConfig"></include>
+                    <include name="easyPayMobileAccountDiscountCodeLoginConfig"></include>
+                    <include name="easyPayVoucherDiscountCodeLoginConfig"></include>
+                    <include name="JaazCashMobileAccountDiscountCodeLoginConfig"></include>
+                    <include name="jazzCashVoucherDiscountCodeLoginConfig"></include>
+                    <include name="singleProdCodInternalCreditLoginConfig"></include>
+                    <include name="singleProdCoddiscountInternalCreditLoginConfig"></include>
+                    <include name="singleHazirProductInternalCreditLoginConfig"></include>
+                    <include name="singleHazirProductInternalCreditDiscountLoginConfig"></include>
+                    <include name="creditCardBINCodeLoginConfigHazir"></include>
+                    <include name="easyPayMobileAccountLoginConfigHazir"></include>
+                    <include name="easyPayVoucherLoginConfigHazir"></include>
+                    <include name="creditCardDiscountCodeLoginConfigHazir"></include>
+                    <include name="easyPayMobileAccountDiscountCodeLoginConfigHazir"></include>
+                    <include name="easyPayVoucherDiscountCodeLoginConfigHazir"></include>
+
+                </methods>
+            </class>-->
+            <!--<class name="testcases.multipleProductsConfigGuest">
+                <methods>
+                    <include name="multipleProdCodConfig"></include>
+                    <include name="multipleProdCoddiscountConfig"></include>
+                    <include name="multipleHazirProductConfig"></include>
+                    <include name="multipleHazirProductDiscountConfig"></include>
+                    <include name="multipleProductCreditCardConfig"></include>
+                    <include name="multipleProductsCreditCardBINCodeConfig"></include>
+                    <include name="multipleProductsEasyPayMobileAccountConfig"></include>
+                    <include name="MultipleProductsEasyPayVoucherConfig"></include>
+                    <include name="MultipleProductsJazzCashVoucherConfig"></include>
+                    <include name="multipleProductsJazzCashMobileAccountConfig"></include>
+                    <include name="multipleProductsCreditCardDiscountCodeConfig"></include>
+                    <include name="multipleProductsCreditCardBINDiscountCodeConfig"></include>
+                    <include name="multipleProductsEasyPayMobileAccountDiscountCodeConfig"></include>
+                    <include name="multipleProductsEasyPayVoucherDiscountCodeConfig"></include>
+                    <include name="multipleProductsJaazCashMobileAccountDiscountCodeConfig"></include>
+                    <include name="multipleProductsJaazCashVoucherDiscountCodeConfig"></include>
+                </methods>
+            </class>-->
+           <!-- <class name="testcases.multipleProductsConfigLogin">
+                <methods>
+                    <include name="multipleProductsCodLoginConfig"></include>
+                    <include name="multipleProductsCoddiscountLoginConfig"></include>
+                    <include name="multipleHazirProductsLoginConfig"></include>
+                    <include name="multipleHazirProductsDiscountLoginConfig"></include>
+                    <include name="multipleProductsCreditCardLoginConfig"></include>
+                    <include name="multipleProductsCreditCardBINCodeLoginConfig"></include>
+                    <include name="multipleProductsEasyPayMobileAccountLoginConfig"></include>
+                    <include name="multipleProductsEasyPayVoucherLoginConfig"></include>
+                    <include name="multipleProdcutsJazzCashMobileAccountLoginConfig"></include>
+                    <include name="multipleProductsJazzCashVoucherLoginConfig"></include>
+                    <include name="multipleProductsCreditCardDiscountCodeLoginConfig"></include>
+                    <include name="multipleProductsCreditCardBINDiscountCodeLoginConfig"></include>
+                    <include name="multipleProductsEasyPayMobileAccountDiscountCodeLoginConfig"></include>
+                    <include name="multipleProductsEasyPayVoucherDiscountCodeLoginConfig"></include>
+                    <include name="multipleProductsJaazCashMobileAccountDiscountCodeLoginConfig"></include>
+                    <include name="multipleProductsJazzCashVoucherDiscountCodeLoginConfig"></include>
+                    <include name="multipleProductsCodInternalCreditLoginConfig"></include>
+                    <include name="multipleProductsCoddiscountInternalCreditLoginConfig"></include>
+                    <include name="multipleProductsHazirProductInternalCreditLoginConfig"></include>
+                    <include name="multipleProductsHazirProductInternalCreditDiscountLoginConfig"></include>
+
+                </methods>
+            </class>-->
+            <!--<class name="testcases.searchResult">
+                <methods>
+                    <include name="HomePageSearch"></include>
+                    <include name="ProductDetailSearch"></include>
+                </methods>
+            </class>-->
+        </classes>
+    </test>
+    <!--  IE TEST-->
+    <!--        <test name="login">
+            <parameter name="browser" value="ie" />
+            <classes>
+                <class name="TestCases.loginTestCases" >
+                    <methods>
+                        <include name="blankPwd"/>
+                        <include name="blankUser"/>
+                        <include name="blankUserPwd"/>
+                        <include name="login"/>
+                    </methods>
+                </class>
+            </classes>
+        </test>-->
+</suite>
